@@ -8,7 +8,7 @@ Atomから直接GitHubへリポジトリの反映を試みましたが
 
 ---
 
-##目次
+## 目次
 1. GitHubにリポジトリを作る
 2. GitHubからソースコードをDLする
 3. Gitディレクトリへ移動
@@ -20,7 +20,7 @@ Atomから直接GitHubへリポジトリの反映を試みましたが
   - おまけ:logの確認
 
 ---
-##1. GitHubにリポジトリを作る
+## 1. GitHubにリポジトリを作る
 
 作成したリポジトリ画面からSSHのURLをコピーする。
 ![スクリーンショット 2019-07-06 14.32.37.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/449552/30c0101f-84b5-c7d3-7cb2-c47b2378a4a9.png)
@@ -44,7 +44,7 @@ $ ls
 ```
 ![スクリーンショット 2019-07-06 13.41.56.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/449552/3d08d15c-48fe-f572-a366-ba83d3c20fff.png)
 
-##3. gitディレクトリへ移動
+## 3. gitディレクトリへ移動
 
 ```
 $ cd suwa3-home/
@@ -62,7 +62,7 @@ Gitディレクトリ内の.(ドット)=カレントを開きます。
 ```
 $ open .
 ```
-##4. Gitへ反映させるFileの移動など
+## 4. Gitへ反映させるFileの移動など
 
 Finderを開き、GitHubにUPしたいFileをコピペなり移動しておくなりする。
 ![スクリーンショット 2019-07-06 13.54.26.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/449552/3a08bf43-cb4f-5ff0-b39a-652703ff2bf2.png)
@@ -83,7 +83,7 @@ $ mv MyPortfolio/index.html .
 $ mv MyPortfolio/* .
 アスタリスクは全てという意味。
 ```
-##5. GitHubにあげてみる
+## 5. GitHubにあげてみる
 
 ステージングエリアに上げ、登録対象にする。
 
@@ -104,7 +104,7 @@ $ git commit
 vimでコミットメッセージを編集する。
 どういった内容か、概要を書く。
 
-##6. GitHubに反映させる
+## 6. GitHubに反映させる
 
 ```
 $ git push
