@@ -1,5 +1,5 @@
 https://qiita.com/suwa3/items/0a180e9833c0146e36b5
-#ShellコマンドでGitHubへソースコードの反映
+# ShellコマンドでGitHubへソースコードの反映
 
 Atomから直接GitHubへリポジトリの反映を試みましたが
 うまくいかずよくわからなかったので
