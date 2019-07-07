@@ -26,7 +26,7 @@ Atomから直接GitHubへリポジトリの反映を試みましたが
 ![スクリーンショット 2019-07-06 14.32.37.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/449552/30c0101f-84b5-c7d3-7cb2-c47b2378a4a9.png)
 ![スクリーンショット 2019-07-06 13.34.44.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/449552/52325ad3-5258-b240-463b-ff86f12a4cd3.png)
 
-##２. GitHubからソースコードをDLする
+## ２. GitHubからソースコードをDLする
 
 ```
 $ git clone "[URL]"
