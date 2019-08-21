@@ -10,14 +10,14 @@ Docker for macOS
 
 ---
 
-##目次
+## 目次
 1. AWS SAM CLIをインストールする
 2. sam init
 3. テストを実行
 4. ローカルでLambda関数を呼び出す
 
 ---
-##1. AWS SAM CLIをインストールする
+## 1. AWS SAM CLIをインストールする
 
 pip を使用して AWS SAM CLI をインストール
 
@@ -31,7 +31,7 @@ $ sam --version
 SAM CLI, version 0.19.0
 ```
 
-##2. sam init
+## 2. sam init
 
 sam init コマンドで python3.7のサンプルアプリケーションを作成
 
@@ -82,7 +82,7 @@ sam-app/
 5 directories, 12 files
 ```
 
-##3. テストを実行
+## 3. テストを実行
 
 テストを実行してみる
 
@@ -109,7 +109,7 @@ tests/unit/test_handler.py::test_lambda_handler PASSED                          
 $ sam build
 ```
 
-##4. ローカルでLambda関数を呼び出す
+## 4. ローカルでLambda関数を呼び出す
 
 まずDockerを起動する
 ローカルで API Gateway 経由で Lambda 関数を呼び出す
